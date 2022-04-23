@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = #29572#38306#23550#24540#12367#12435
+  ClientHeight = 368
+  ClientWidth = 204
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = #12371#12435#12395#12385#12399
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = #12372#12367#12429#12373#12414#12391#12377
+    OnClick = Button2Click
+  end
+  object Button4: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 171.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #20877#24230
+    OnClick = Button4Click
+  end
+  object Button3: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 122.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = #23429#24613#20415
+    OnClick = Button3Click
+  end
+  object Button5: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = #12406#12387#12392#12400#12540#12377
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 239.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #24112#12428#65281
+    OnClick = Button6Click
+  end
+  object WUni232c1: TWUni232c
+    Port = 30
+    BaudRate = 9600
+    ParityBits = ParityNone
+    ByteSize = Bit8
+    StopBits = Stopbit1
+    FlowControls = CtrlNone
+    Left = 400
+    Top = 264
+  end
+end
